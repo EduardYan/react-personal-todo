@@ -24,6 +24,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 2em;
+  justify-content: center;
 }
 
 .card {
@@ -100,9 +101,9 @@ body {
   height: 25px;
 }
 
-/* .btn:hover {
-  background-color: rgba(247, 234, 234, 0.342);
-} */
+.btn:hover {
+  background-color: rgba(247, 234, 234, 0.209);
+}
 
 .card:hover::before {
   width: 140px;
